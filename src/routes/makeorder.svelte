@@ -3,6 +3,7 @@
 	import Icon from '@smui/textfield/icon';
 	import Button, { Label } from '@smui/button';
 	import Swal from 'sweetalert2/dist/sweetalert2.js';
+	import NavBar from '../components/NavBar.svelte';
 
 	import 'sweetalert2/src/sweetalert2.scss';
 	import { getProducts } from '../api/product';
@@ -70,6 +71,7 @@
 <svelte:head>
 	<title>Orders</title>
 </svelte:head>
+<NavBar />
 <h3 class="ml-12 mt-6 text-4xl font-serif font-bold">Ordenes</h3>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-12 p-8">

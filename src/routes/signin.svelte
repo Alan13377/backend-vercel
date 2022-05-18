@@ -2,6 +2,7 @@
 	import SignIn from '../views/auth/SignIn.svelte';
 	import { browser } from '$app/env';
 	import { goto } from '$app/navigation';
+	import NavBar from '../components/NavBar.svelte';
 	let token = '';
 
 	if (browser) {
@@ -15,4 +16,5 @@
 <svelte:head>
 	<title>Iniciar Sesión</title>
 </svelte:head>
+<NavBar />
 <SignIn />

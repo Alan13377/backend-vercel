@@ -1,7 +1,5 @@
 <script>
 	import '../app.css';
-	import NavBar from '../components/NavBar.svelte';
 </script>
 
-<NavBar />
 <slot><!-- optional fallback --></slot>

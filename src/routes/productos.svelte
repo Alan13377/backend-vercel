@@ -2,6 +2,7 @@
 	import Card, { Content, Media, MediaContent } from '@smui/card';
 	import Textfield from '@smui/textfield';
 	import Icon from '@smui/textfield/icon';
+	import NavBar from '../components/NavBar.svelte';
 	import {
 		getProducts,
 		createProduct,
@@ -133,6 +134,7 @@
 <svelte:head>
 	<title>Productos</title>
 </svelte:head>
+<NavBar />
 
 {#if $isOverlayOpen}
 	<Dialog>

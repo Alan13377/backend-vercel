@@ -4,6 +4,7 @@
 	import Card from '@smui/card';
 	import Button, { Label } from '@smui/button';
 	import { isLoggedIn } from '../stores/store';
+	import NavBar from '../components/NavBar.svelte';
 
 	let orders = [];
 
@@ -30,6 +31,7 @@
 <svelte:head>
 	<title>Orders</title>
 </svelte:head>
+<NavBar />
 <h3 class="ml-12 mt-6 text-4xl font-serif font-bold">Ordenes</h3>
 
 <div>
